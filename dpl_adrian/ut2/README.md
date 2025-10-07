@@ -1,7 +1,7 @@
 
 <center>
+ 
 # UT2-A1: Implantación de arquitecturas web
-
 
 </center>
 
@@ -228,5 +228,6 @@ La práctica ha permitido desplegar una aplicación PHP que funciona como calcul
 Se ha aprendido a configurar Nginx con PHP-FPM y a crear un contenedor Docker que sirva la aplicación, comprobando que funciona correctamente en ambos casos.
 
 Además, se ha podido comprobar la ventaja de Docker para aislar el entorno, facilitar la portabilidad y simplificar el despliegue de aplicaciones web.
+
 
 
