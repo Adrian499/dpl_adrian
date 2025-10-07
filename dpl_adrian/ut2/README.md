@@ -229,3 +229,4 @@ Se ha aprendido a configurar Nginx con PHP-FPM y a crear un contenedor Docker qu
 
 Además, se ha podido comprobar la ventaja de Docker para aislar el entorno, facilitar la portabilidad y simplificar el despliegue de aplicaciones web.
 
+
