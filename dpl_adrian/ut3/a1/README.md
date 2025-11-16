@@ -54,7 +54,7 @@ sudo apt install -y nginx
 ```
 
 ## Creamos el directorio donde vamos alojar el HTML, CSS y JS del proyecto:
-![Descripción de la imagen](/img/1.png)
+![Descripción de la imagen](img/1.png)
 
 ## Instalamos las dependencias de ngx_small_light
 ```
@@ -102,13 +102,13 @@ sudo nano /etc/nginx/nginx.conf
 
 Añadimos 
 
-![Descripción de la imagen](/img/2.png)
+![Descripción de la imagen](img/2.png)
 
 ## Configurar virtual Host Nativo
 
 Nos dirigimos al directorio /etc/nginx/conf.d/ y editamos a1_small_light.conf así:
 
-![Descripción de la imagen](/img/3.png)
+![Descripción de la imagen](img/3.png)
 
 ## Certificados
 
@@ -128,10 +128,11 @@ sudo systemctl reload nginx
 ```
 
 Y nos devería ver la web con la resolución de nombre
-![Descripción de la imagen](/img/4.png)
+![Descripción de la imagen](img/4.png)
 (En caso de no ver url del navegador abrir imagen)
 
 
 #### ***Conclusiones***. <a name="id5"></a>
+
 
 La práctica ha permitido comprender en profundidad el proceso de despliegue y personalización de un servidor Nginx mediante la integración de módulos externos. La compilación y carga dinámica de ngx_small_light ha demostrado la flexibilidad del servidor para extender sus capacidades, en este caso aplicando transformaciones de imágenes en tiempo real. Además, la configuración del virtual host, la gestión de certificados SSL y la correcta estructuración del entorno han reforzado el manejo de servicios web seguros y funcionales. En conjunto, la actividad ha proporcionado una visión práctica y completa sobre la administración avanzada de servidores web en entornos Linux.
